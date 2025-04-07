@@ -1,4 +1,12 @@
 import "./App.css";
+import pic1 from "./Images/lina/a.jpg";
+import pic2 from "./Images/lina/photo_2025-04-06_05-37-45.jpg";
+import pic3 from "./Images/lina/photo_2025-04-06_05-38-46.jpg";
+import pic4 from "./Images/lina/photo_2025-04-06_05-38-54.jpg";
+import pic5 from "./Images/lina/photo_2025-04-06_05-38-57.jpg";
+import pic6 from "./Images/lina/photo_2025-04-06_05-40-16.jpg";
+import pic7 from "./Images/lina/photofromtik.png";
+import pic8 from "./Images/lina/photo_2025-04-06_05-40-19.jpg";
 
 function App() {
   return (
@@ -6,7 +14,7 @@ function App() {
       <h1 className="text-3xl text-center mt-5">Happybirthday Z!!</h1>
       <div className="flex flex-row items-center justify-center mt-5">
         <img
-          src="../public/lina/a.jpg"
+          src={pic1}
           alt="Birthday"
           className="ml-10  mr-5 w-30 h-40 rounded-lg shadow-lg"
         />
@@ -22,18 +30,18 @@ function App() {
           for your friendship.
         </p>
         <img
-          src="../public/lina/photo_2025-04-06_05-37-45.jpg"
+          src={pic2}
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
       </div>
       <div className="flex flex-row items-center justify-center mt-5">
         <img
-          src="../public/lina/photo_2025-04-06_05-38-46.jpg"
+          src={pic3}
           alt="Birthday"
           className="ml-10  mr-5 w-30 h-40 rounded-lg shadow-lg"
-        />s
-        
+        />
+        s
         <p className="text-xs text-center w-40">
           Thank you for always being there for me and for all the wonderful
           moments we have shared together.
@@ -46,14 +54,14 @@ function App() {
           world.
         </p>
         <img
-          src="../public/lina/photo_2025-04-06_05-38-54.jpg"
+          src={pic4}
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
       </div>
       <div className="flex flex-row items-center justify-center mt-5">
         <img
-          src="../public/lina/photo_2025-04-06_05-38-57.jpg"
+          src={pic5}
           alt="Birthday"
           className="ml-10  mr-5 w-30 h-40 rounded-lg shadow-lg"
         />
@@ -69,14 +77,14 @@ function App() {
           have you in my life. Thank you for being such an incredible friend.
         </p>
         <img
-          src="../public/lina/photo_2025-04-06_05-40-16.jpg"
+          src={pic6}
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
       </div>
       <div className="flex flex-row items-center justify-center mt-5">
         <img
-          src="../public/lina/video (3)[00_00_04][20250406-060955].png"
+          src={pic7}
           alt="Birthday"
           className="ml-10  mr-5 w-30 h-40 rounded-lg shadow-lg"
         />
@@ -93,7 +101,7 @@ function App() {
           together.
         </p>
         <img
-          src="../public/lina/photo_2025-04-06_05-40-19.jpg"
+          src={pic8}
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
