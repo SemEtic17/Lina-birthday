@@ -46,14 +46,14 @@ function App() {
           world.
         </p>
         <img
-          src="..\public\lina\photo_2025-04-06_05-38-54.jpg"
+          src="../public/lina/photo_2025-04-06_05-38-54.jpg"
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
       </div>
       <div className="flex flex-row items-center justify-center mt-5">
         <img
-          src="..\public\lina\photo_2025-04-06_05-38-57.jpg"
+          src="../public/lina/photo_2025-04-06_05-38-57.jpg"
           alt="Birthday"
           className="ml-10  mr-5 w-30 h-40 rounded-lg shadow-lg"
         />
@@ -69,14 +69,14 @@ function App() {
           have you in my life. Thank you for being such an incredible friend.
         </p>
         <img
-          src="..\public\lina\photo_2025-04-06_05-40-16.jpg"
+          src="../public/lina/photo_2025-04-06_05-40-16.jpg"
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
       </div>
       <div className="flex flex-row items-center justify-center mt-5">
         <img
-          src="..\public\lina\video (3)[00_00_04][20250406-060955].png"
+          src="../public/lina/video (3)[00_00_04][20250406-060955].png"
           alt="Birthday"
           className="ml-10  mr-5 w-30 h-40 rounded-lg shadow-lg"
         />
@@ -93,7 +93,7 @@ function App() {
           together.
         </p>
         <img
-          src="..\public\lina\photo_2025-04-06_05-40-19.jpg"
+          src="../public/lina/photo_2025-04-06_05-40-19.jpg"
           alt="Birthday"
           className="mr-10  ml-5 w-30 h-40 rounded-lg shadow-lg"
         />
