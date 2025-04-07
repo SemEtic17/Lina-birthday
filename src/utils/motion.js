@@ -120,3 +120,20 @@ export const floatUp = (delay, duration) => ({
     },
   },
 });
+
+export const tada = {
+  hidden: { scale: 1 },
+  show: {
+    scale: [1, 1.1, 1, 1.1, 1],
+    rotate: [0, -5, 5, -5, 0],
+    transition: { duration: 0.7 },
+  },
+};
+
+export const pulse = {
+  hidden: { scale: 1 },
+  show: {
+    scale: [1, 1.05, 1],
+    transition: { duration: 1, repeat: Infinity },
+  },
+};
