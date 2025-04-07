@@ -86,3 +86,37 @@ export const staggerContainer = (staggerChildren, delayChildren) => {
     },
   };
 };
+
+export const popIn = (delay, duration) => ({
+  hidden: {
+    scale: 0.8,
+    opacity: 0,
+  },
+  show: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      delay,
+      duration,
+      bounce: 0.4,
+    },
+  },
+});
+
+export const floatUp = (delay, duration) => ({
+  hidden: {
+    y: 20,
+    opacity: 0,
+  },
+  show: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "tween",
+      delay,
+      duration,
+      ease: "easeOut",
+    },
+  },
+});
