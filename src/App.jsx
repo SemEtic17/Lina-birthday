@@ -9,7 +9,7 @@ import pic5 from "./Images/lina/photo_2025-04-06_05-38-57.jpg";
 import pic6 from "./Images/lina/photo_2025-04-06_05-40-16.jpg";
 import pic7 from "./Images/lina/photofromtik.png";
 import pic8 from "./Images/lina/photo_2025-04-06_05-40-19.jpg";
-import ConfettiExplosion from "react-confetti-explosion";
+import Confetti from "react-confetti";
 
 function App() {
   const [isExploding, setIsExploding] = useState(false);
@@ -51,7 +51,7 @@ function App() {
       {/* Confetti explosion */}
       {isExploding && (
         <div className="fixed inset-0 flex justify-center items-center pointer-events-none">
-          <ConfettiExplosion
+          <Confetti
             particleCount={150}
             duration={3000}
             width={1600}
