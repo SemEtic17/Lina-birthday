@@ -1,4 +1,6 @@
 import "./App.css";
+import { motion } from "framer-motion";
+import { slideIn } from "./utils/motion.js";
 import pic1 from "./Images/lina/a.jpg";
 import pic2 from "./Images/lina/photo_2025-04-06_05-37-45.jpg";
 import pic3 from "./Images/lina/photo_2025-04-06_05-38-46.jpg";
@@ -7,12 +9,16 @@ import pic5 from "./Images/lina/photo_2025-04-06_05-38-57.jpg";
 import pic6 from "./Images/lina/photo_2025-04-06_05-40-16.jpg";
 import pic7 from "./Images/lina/photofromtik.png";
 import pic8 from "./Images/lina/photo_2025-04-06_05-40-19.jpg";
-
 function App() {
   return (
     <>
       <h1 className="text-3xl text-center mt-5">Happybirthday Z!!</h1>
-      <div className="flex flex-row items-center justify-center mt-5">
+      <motion.div
+        initial="hidden"
+        animate="show"
+        variants={slideIn("left", "tween", 0.5, 1)}
+        className="flex flex-row items-center justify-center mt-5"
+      >
         <img
           src={pic1}
           alt="Birthday"
@@ -22,7 +28,7 @@ function App() {
           Happy birthday to you, my dear friend! I hope this year brings you all
           the happiness and success you deserve.
         </p>
-      </div>
+      </motion.div>
       <div className="flex flex-row items-center justify-center mt-5">
         <p className="text-xs text-center w-40">
           May your day be filled with love, laughter, and unforgettable
